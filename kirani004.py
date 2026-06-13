@@ -1,6 +1,6 @@
 def transpose_matriks(matriks):
     baris = len(matriks)
-    kolom = len(matriks)
+    kolom = len(matriks[0])
 
     hasil = [[0, 0, 0], 
              [0, 0, 0], 
